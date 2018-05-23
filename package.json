@@ -1,0 +1,22 @@
+{
+  "name": "tstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.1.2",
+    "ts-node": "^6.0.3",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
