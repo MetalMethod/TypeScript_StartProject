@@ -1,6 +1,6 @@
 {
-  "name": "tstest",
-  "version": "1.0.0",
+  "name": "TypeScript_Boilerplate",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
