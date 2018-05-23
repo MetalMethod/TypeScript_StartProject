@@ -29,9 +29,7 @@ And then change the package.json to fit the project.
   },
  ```
 
-So you can now run npm start and as you edit index.ts:
+So you can now run ```npm start``` and as you edit index.ts.
 
-    nodemon reruns its command (ts-node)
-    ts-node transpiles automatically picking up tsconfig.json and the installed typescript version,
-    ts-node runs the output javascript through Node.js.
-
+reference link:
+https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
